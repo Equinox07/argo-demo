@@ -3,7 +3,7 @@ kind: Service
 metadata:
   label:
     app: nginx
-  name: nginx
+  name: nginx-service
 spec:
   selector:
     app: nginx
