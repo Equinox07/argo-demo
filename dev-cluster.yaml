@@ -1,0 +1,7 @@
+apiVersion: minikube.io/v1alpha2
+kind: Simple
+options:
+  minikube:
+    extraServerArgs:
+      -   --tls-san=192.168.56.1
+    extraAgentArgs: []
