@@ -1,0 +1,18 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: imsapp
+data:
+  APP_NAME: "EnginIMS"
+  APP_ENV: production
+  APP_KEY: base64:rBhCf12bhZeMoJgCn/hFQL8dOOvchNkOXNEA7yWyV8I=
+  APP_DEBUG: "false"
+  APP_URL: /
+  LOG_CHANNEL: stack
+  DB_HOST: "192.168.56.1"
+  DB_PORT: "33060"
+  DB_DATABASE: ingenimsdb
+  DB_USERNAME: root
+  DB_PASSWORD: "skdcnwauicn2ucnaecasdsajdnizucawencascdca"
+  SSL_MODE: "off"
+
