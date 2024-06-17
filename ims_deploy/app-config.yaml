@@ -4,9 +4,9 @@ metadata:
   name: imsapp
 data:
   APP_NAME: "EnginIMS"
-  APP_ENV: production
+  APP_ENV: local
   APP_KEY: base64:rBhCf12bhZeMoJgCn/hFQL8dOOvchNkOXNEA7yWyV8I=
-  APP_DEBUG: "false"
+  APP_DEBUG: "true"
   APP_URL: /
   LOG_CHANNEL: stack
   DB_HOST: "192.168.56.1"
